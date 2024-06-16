@@ -1,0 +1,12 @@
+ "author": "Openblock.cc Team <contact@openblock.cc> (http://www.openblock.cc/)",
+
+ https://saungrobot.myr.id/landing/saungrobot
+
+   "author": "Openblock.cc Team <info@saungrobot.myr.id> (https://saungrobot.myr.id/landing/saungrobot)",
+
+    "productName": "OpenBlockDesktop",
+
+    SaungStudioDesktop
+    saungstudio
+
+    artifactName: "SaungStudio-Desktop_v${version}_${os}_${arch}.${ext}"

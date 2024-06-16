@@ -4,7 +4,7 @@ import styles from './license.css';
 import bindAll from 'lodash.bindall';
 import classNames from 'classnames';
 
-import OpenBlockLogo from '../icon/logo-OpenBlockcc.svg';
+import OpenBlockLogo from '../icon/logo-SaungStudiocc.svg';
 import ScratchFoundationLogo from '../icon/logo-ScratchFoundation.svg';
 
 // Insert new copyright information at the head of the array to add a new copyright notice

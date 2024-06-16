@@ -3,19 +3,19 @@ directories:
   output: dist
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
-appId: openblock.cc.openblock-desktop
-productName: "OpenBlockDesktop"
+appId: saungstudio.cc.saungstudio-desktop
+productName: "SaungStudioDesktop"
 publish:
   - provider: github
   - provider: spaces
-    name: openblock
+    name: saungstudio
     path: desktop
     region: sgp1
-artifactName: "OpenBlock-Desktop_v${version}_${os}_${arch}.${ext}"
+artifactName: "SaungStudio-Desktop_v${version}_${os}_${arch}.${ext}"
 
 fileAssociations:
   ext: ob
-  name: OpenBlock project file
+  name: SaungStudio project file
   role: Editor
   icon: buildResources/OpenBlockFile.ico
 
@@ -45,9 +45,9 @@ dmg:
 # masDev:
 #   type: development
 #   provisioningProfile: mas-dev.provisionprofile
-
+# icon: buildResources/OpenBlockDesktop.ico
 win:
-  icon: buildResources/OpenBlockDesktop.ico
+  icon: buildResources/SaungStudioDesktop.ico
   target:
     # - appx
     - nsis
@@ -66,8 +66,8 @@ linux:
   icon: buildResources/linux
   desktop:
     - Encoding: UTF-8
-    - Name: OpenBlockDesktop
-    - Icon: openblock-desktop
+    - Name: SaungStudioDesktop
+    - Icon: saungstudio-desktop
     - Type: Application
     - Terminal: false
   target:
